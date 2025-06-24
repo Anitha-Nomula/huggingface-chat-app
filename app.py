@@ -1,4 +1,8 @@
 import streamlit as st
 
-st.title("My Streamlit App")
-st.write("Welcome to the app!")
+def main():
+    st.title("Hello! I'm your chatbot 🤖")
+    st.write("Type something and let's chat!")
+
+if __name__ == "__main__":
+    main()
